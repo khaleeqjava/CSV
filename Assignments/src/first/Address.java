@@ -6,14 +6,15 @@ public class Address {
 	private String postalCode;
 	private String city;
 	private String country;
-	/*public Address(String street, String postalCode, String city, String country) {
-		
+	
+	public Address(String street, String postalCode, String city, String country) {
 		this.street = street;
 		this.postalCode = postalCode;
 		this.city = city;
 		this.country = country;
-	}*/
-	public String getStreet() {
+	}
+	
+		public String getStreet() {
 		return street;
 	}
 	public void setStreet(String street) {
@@ -37,10 +38,4 @@ public class Address {
 	public void setCountry(String country) {
 		this.country = country;
 	}
-	@Override
-	public String toString() {
-		return "Address [street=" + street + ", postalCode=" + postalCode + ", city=" + city + ", country=" + country
-				+ "]";
-	}
-	
 }
